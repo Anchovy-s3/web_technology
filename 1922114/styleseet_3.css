@@ -1,0 +1,107 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@@font-face {
+  font-family: "SF Pro Text";
+  src: url("font/SFProText-Regular.ttf") format("ttf");
+}
+
+@@font-face {
+  font-family: "SF Pro Display";
+  src: url("font/SFProDisplay-Bold.ttf") format("ttf");
+}
+
+@@font-face {
+  font-family: "Brie";
+  src: url("font/brie.ttf") format("ttf");
+}
+
+@@font-face {
+  font-family: "Corp";
+  src: url("font/corporate.ttf") format("ttf");
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.73);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border: 1px solid;
+  border-color: #707070;
+  border-top: transparnt;
+  border-left: transparnt;
+  border-right: transparnt;
+}
+
+.header-left {
+  padding-left: 3vw;
+  float: left;
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+body {
+  font-family: SF Pro Text;
+  margin: 0 auto;
+}
+.result {
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+h1 {
+  font-family: "Brie";
+  font-size: 80px;
+  text-align: center;
+}
+.contents-top{
+  height: 20vh;
+  width: 100%
+}
+.contents-top h1 {
+  color: rgb(97, 97, 97);
+  text-align: center;
+}
+.contents{
+  width: 80vw;
+  height: 70vh;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.canvas_holder{
+  width: 40vw;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 5px;
+}
+.links{
+  width: 40vw;
+  height: 20vh;
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 5px;
+}
+a {
+  text-decoration: none;
+}

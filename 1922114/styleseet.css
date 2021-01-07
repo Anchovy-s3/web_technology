@@ -1,0 +1,237 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@@font-face {
+  font-family: "SF Pro Text";
+  src: url("font/SFProText-Regular.ttf") format("ttf");
+}
+
+@@font-face {
+  font-family: "SF Pro Display";
+  src: url("font/SFProDisplay-Bold.ttf") format("ttf");
+}
+
+@@font-face {
+  font-family: "Brie";
+  src: url("font/brie.ttf") format("ttf");
+}
+
+@@font-face {
+  font-family: "Corp";
+  src: url("font/corporate.ttf") format("ttf");
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.73);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border: 1px solid;
+  border-color: #707070;
+  border-top: transparnt;
+  border-left: transparnt;
+  border-right: transparnt;
+}
+
+.header-left {
+  padding-left: 3vw;
+  float: left;
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+
+.logo {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.right {
+  list-style: none;
+  overflow: hidden;
+  line-height: 35px;
+  padding-right: 20px;
+  width: 35vw;
+  float: right;
+}
+
+.right nav {
+  float: right;
+}
+
+.right li {
+  font-family: "SF Pro Display";
+  float: left;
+  margin-left: 5vw;
+}
+
+.right a {
+  color: white;
+  font-size: 18px;
+}
+
+body {
+  font-family: SF Pro Text;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  width: 100%;
+}
+
+.top-wrapper p {
+  text-align: center;
+}
+
+.top-link {
+  width: 250px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-link {
+  width: 70px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main {
+  height: 100vh;
+  background-image: url(img/main.png);
+  background-size: cover;
+  display: flex;
+  position: relative;
+}
+
+h1 {
+  font-family: "Brie";
+  font-size: 80px;
+  text-align: center;
+}
+
+.main h1 {
+  color: white;
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 5px;
+}
+
+.about {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+.about h1 {
+  padding-top: 10vh;
+  color: rgb(66, 66, 66);
+}
+
+.about-contents {
+  color: rgb(66, 66, 66);
+  position: absolute;
+  top: 35%;
+  left: 50% transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 70vh;
+  padding-left: 15vw;
+}
+
+.web {
+  text-align: center;
+}
+
+.syll {
+  color: rgb(176, 176, 176);
+  float: right;
+}
+
+.profile {
+  height: 100vh;
+  background-color: black;
+  position: relative;
+}
+
+.profile h1 {
+  padding-top: 10vh;
+  color: white;
+}
+
+.profile-contents {
+  width: 80vw;
+  height: 70vh;
+  padding-left: 10vw;
+  position: relative;
+}
+
+.prof {
+  font-family: "Brie";
+  font-size: 24px;
+  position: absolute;
+  top: 0%;
+  left: 80% transform: translate(-50%, -50%);
+  padding-left: 30vw;
+  width: 55vw;
+  height: 60vh;
+}
+
+.name {
+  font-family: "Brie";
+  font-size: 60px;
+}
+
+.profile-contents p {
+  color: white;
+}
+
+.profile-img {
+  padding-left: 10vh;
+  float: left;
+  width: 280px;
+}
+
+.contact {
+  height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+.contact h1 {
+  padding-top: 10vh;
+  color: black;
+}
+
+.contact-contents {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60vw;
+  height: 10vh;
+}
+
+.contact-contents p {
+  text-align: center;
+  font-family: "Brie";
+  font-size: 30px;
+}
+
+.head {
+  transform: scale(1, -1);
+}
+
+a {
+  text-decoration: none;
+}

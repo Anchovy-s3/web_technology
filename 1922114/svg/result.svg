@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="70" viewBox="0 0 250 70">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="250" height="70" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="リピートグリッド_9" data-name="リピートグリッド 9" clip-path="url(#clip-path)">
+    <g transform="translate(-558 -474)">
+      <g id="長方形_5" data-name="長方形 5" transform="translate(558 474)" fill="rgba(255,255,255,0)" stroke="#fff" stroke-width="2">
+        <rect width="250" height="70" stroke="none"/>
+        <rect x="1" y="1" width="248" height="68" fill="none"/>
+      </g>
+      <text id="Go_Result_Page" data-name="Go Result Page" transform="translate(683 514)" fill="#fff" font-size="17" font-family="Brie Light, Brie"><tspan x="-56.925" y="0">Go Result Page</tspan></text>
+    </g>
+  </g>
+</svg>

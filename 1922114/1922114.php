@@ -28,7 +28,10 @@
   </header>
   <div class="main" id="main">
     <div class="top-wrapper">
-      <h1>Web Technology</h1>
+      <!-- <h1>Web Technology</h1> -->
+      <div class="top_logo">
+        <img src="svg/top_logo.svg">
+      </div>
       <<!-- top-link はPHPスクリプトページ-->
         <a class="top-link" href="1922114_2.php">
           <p><img src="svg/link_01.svg"></p>

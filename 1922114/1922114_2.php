@@ -1,6 +1,6 @@
 <?php
 
-  //ip.txt を参照し、該当なしの場合true 該当する場合 falseを返す
+  //ip.txt を参照し、該当なしの場合true 該当する場合 falseを返す.
   function ip_check($ip){
     $data = file("ip.txt");
     $ips = array();

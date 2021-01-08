@@ -43,7 +43,8 @@
   </div>
   <section class="about" id="about">
     <div class="about-logo">
-      <h1>About.</h1>
+      <!-- <h1>About.</h1> -->
+      <img src="svg/about.svg">
     </div>
     <p class="web">Web技術とは</p>
     <div class="about-contents">
@@ -62,7 +63,8 @@
   </section>
   <section class="profile" id="profile">
     <div class="profile-logo">
-      <h1>Profile.</h1>
+      <!-- <h1>Profile.</h1> -->
+      <img src="svg/profile.svg">
     </div>
     <div class="profile-contents">
       <img class="profile-img" src="img/monkey.png">

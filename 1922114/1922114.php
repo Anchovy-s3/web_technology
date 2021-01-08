@@ -80,7 +80,8 @@
   </section>
   <section class="contact" id="contact">
     <div class="contact-logo">
-      <h1>Contact.</h1>
+      <!--<h1>Contact.</h1>-->
+      <img src="svg/contact.svg">
     </div>
     <div class="contact-contents">
       <p>Mail:s1922114@cco.kanagawa-it.ac.jp</p>

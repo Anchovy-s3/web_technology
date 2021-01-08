@@ -2,24 +2,24 @@ html {
   scroll-behavior: smooth;
 }
 
-@@font-face {
+@font-face {
   font-family: "SF Pro Text";
-  src: url("font/SFProText-Regular.ttf") format("ttf");
+  src: url(font/SFProText-Regular.ttf) format("ttf");
 }
 
-@@font-face {
+@font-face {
   font-family: "SF Pro Display";
-  src: url("font/SFProDisplay-Bold.ttf") format("ttf");
+  src: url(font/SFProDisplay-Bold.ttf) format("ttf");
 }
 
-@@font-face {
+@font-face {
   font-family: "Brie";
-  src: url("font/brie.ttf") format("ttf");
+  src: url(font/brie.ttf) format("ttf");
 }
 
-@@font-face {
+@font-face {
   font-family: "Corp";
-  src: url("font/corporate.ttf") format("ttf");
+  src: url(font/corporate.ttf) format("ttf");
 }
 
 header {

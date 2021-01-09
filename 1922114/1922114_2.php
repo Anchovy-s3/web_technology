@@ -51,9 +51,9 @@
   </header>
   <div class="main" id="main">
     <div class="top-wrapper">
-      <!-- <h1>Web Technology</h1> -->
+      <h1>Web Technology</h1>
       <div class="top_logo">
-        <img src="svg/top_logo.svg">
+        <!--<img src="svg/top_logo.svg">-->
       </div>
       <p>PHP Script Page</p>
       <<!-- top-link はトップページ-->

@@ -4,24 +4,28 @@ html {
 
 @font-face {
   font-family: "SF Pro Text";
-  src: url(font/SFProText-Regular.ttf) format("ttf");
+  src: url("font/SFProText-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "SF Pro Display";
-  src: url(font/SFProDisplay-Bold.ttf) format("ttf");
+  src: url("font/SFProDisplay-Bold.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Brie";
-  src: url(font/brie.ttf) format("ttf");
+  src: url("font/brie.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Corp";
-  src: url(font/corporate.ttf) format("ttf");
+  src: url("font/corporate.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "euf";
+  src: url("font/euf.ttf") format("truetype");
+}
 header {
   height: 70px;
   width: 100%;
@@ -51,7 +55,6 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .right {
   list-style: none;
   overflow: hidden;
@@ -92,7 +95,7 @@ body {
 .top-link {
   width: 250px;
   position: absolute;
-  top: 65%;
+  top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -114,7 +117,7 @@ body {
 }
 
 h1 {
-  font-family: "Brie";
+  font-family: "brie";
   font-size: 80px;
   text-align: center;
 }
@@ -122,33 +125,44 @@ h1 {
 .main h1 {
   color: white;
   position: absolute;
-  top: 46%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding-bottom: 5px;
 }
-
+.top_logo img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .about {
   height: 100vh;
   background-color: white;
   position: relative;
 }
-
+.about-logo img{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .about h1 {
   padding-top: 10vh;
   color: rgb(66, 66, 66);
 }
 
 .about-contents {
+  padding-top: 50vh;
   color: rgb(66, 66, 66);
   position: absolute;
   top: 35%;
-  left: 50% transform: translate(-50%, -50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 80vw;
   height: 70vh;
-  padding-left: 15vw;
+  padding-left： 15vw；
 }
-
 .web {
   text-align: center;
 }
@@ -199,7 +213,7 @@ h1 {
 .profile-img {
   padding-left: 10vh;
   float: left;
-  width: 280px;
+  width: 14.5vw;
 }
 
 .contact {

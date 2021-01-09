@@ -28,10 +28,10 @@
   </header>
   <div class="main" id="main">
     <div class="top-wrapper">
-      <!-- <h1>Web Technology</h1> -->
-      <div class="top_logo">
+      <h1>Web Technology</h1>
+      <!--<div class="top_logo">
         <img src="svg/top_logo.svg">
-      </div>
+      </div> -->
       <<!-- top-link はPHPスクリプトページ-->
         <a class="top-link" href="1922114_2.php">
           <p><img src="svg/link_01.svg"></p>
@@ -43,8 +43,8 @@
   </div>
   <section class="about" id="about">
     <div class="about-logo">
-      <!-- <h1>About.</h1> -->
-      <img src="svg/about.svg">
+      <h1>About.</h1>
+      <!--<img src="svg/about.svg">-->
     </div>
     <p class="web">Web技術とは</p>
     <div class="about-contents">
@@ -63,8 +63,8 @@
   </section>
   <section class="profile" id="profile">
     <div class="profile-logo">
-      <!-- <h1>Profile.</h1> -->
-      <img src="svg/profile.svg">
+      <h1>Profile.</h1>
+     <!-- <img src="svg/profile.svg"> -->
     </div>
     <div class="profile-contents">
       <img class="profile-img" src="img/monkey.png">
@@ -80,8 +80,8 @@
   </section>
   <section class="contact" id="contact">
     <div class="contact-logo">
-      <!--<h1>Contact.</h1>-->
-      <img src="svg/contact.svg">
+      <h1>Contact.</h1>
+      <!--<img src="svg/contact.svg">-->
     </div>
     <div class="contact-contents">
       <p>Mail:s1922114@cco.kanagawa-it.ac.jp</p>

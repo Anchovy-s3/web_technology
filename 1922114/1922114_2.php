@@ -17,6 +17,12 @@
     }
   }
 
+  session_start();
+  if(empty($_SESSION["count"])){
+    $_SESSION["count"] = 1;
+  }else{
+    $_SESSION["count"]++;
+  }
 ?>
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
@@ -71,8 +77,10 @@
       <div class="top_logo">
         <!--<img src="svg/top_logo.svg">-->
       </div>
-      <p>PHP Script Page</p>
-      <<!-- top-link はトップページ-->
+      <p>PHP Script Page
+      <br>
+      You visited this page <?php echo $_SESSION["count"] ?> time.</p>
+      <!-- top-link はトップページ-->
         <a class="top-link" href="1922114.php">
           <p><img src="svg/link_04.svg"></p>
         </a>
@@ -83,18 +91,17 @@
   </div>
   <section class="upload" id="upload">
     <div class="upload-logo">
-      <h1>Upload.</h1>
+      <h1>About This Page.</h1>
     </div>
     <div class="upload-contents">
       <?php
       /*echo rank(1,0);*/
        ?>
-      <p>これまで学んできた情報技術そしてネットワーク技術に関する基礎知識について、実践を通じて理解を深めこれらの活用や</p>
-      <p>今後の展望について議論をできるようにすることを目指した授業である。</p>
-      <p>具体的には、ネットワーク上のサーバとサーバ上で稼働するWebを用いたアプリケーションについて学んでいく。</p>
-      <p>まずサーバを構築する基盤としてUNIX OSを導入する。</p>
-      <p>そして、これまで個別に学んできたネットワーク基礎知識や原理について補足講義を含めながら、これらを活用してWWWサービスを行うためのUNIXネットワークとその設定について学ぶ。</p>
-      <p>さらに、Webアプリケーション開発のためのソフトウェア技術について、PHP言語を用いながら、講義と演習を交えて実践的に学んでいく。</p>
+      <p>このページでは、1st sectionでセッションを使い訪問回数を表示しています。</p>
+      <p>次に Questionnaire では使用しているブラウザについてのアンケートを設置しています</p>
+      <p>このアンケートですが同一IPアドレスからの投票を一度のみに制限しています</p>
+      <p>グローバルIPをテキストファイルに保存しているだけですのでセキュリティが気になる方は投票をお控えください</p>
+      <p>投票済みのIPアドレスから再度アクセスがあった場合は直接投票結果ページへのリンクが表示されるようになっています</p>
     </div>
     <a class="section-link" href="#ques">
       <p><img src="svg/link_03.svg"></p>

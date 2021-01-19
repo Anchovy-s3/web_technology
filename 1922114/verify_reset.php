@@ -27,11 +27,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet"> 
 
 <div class="container">
-  <form >
+  <form action="reset_ip.php" method="post">
     <p>Verify</p>
-    <input type="email" placeholder="ID"><br>
-    <input type="password" placeholder="PW"><br>
-    <input type="button" value="Sign in"><br>
+    <input type="email" name="ID" id = "ID" placeholder="ID"><br>
+    <input type="password" name="PW" id = "PW" placeholder="PW"><br>
+    <input type="submit" value="Sign in"><br>
   </form>
 
   <div class="drops">

@@ -101,7 +101,7 @@
        });
        </script>
       <div class="links">
-        <form action="reset_ip.php" method="post">
+        <form action="verify_reset.php" method="post">
           <input type="image" src="svg/reset.svg" name="cont_reset">
 
         </form>

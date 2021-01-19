@@ -18,6 +18,8 @@ if(hash("sha256", $id) == "795ad03252b51225220df1533abb4b40bfabb14ccc95fd6e87872
 }else{
   echo "Wrong Account!";
 }
+$id = 0;
+$pass = 0;
 echo "<br>";
 echo'
 <a class="top-link" href="1922114_2.php">

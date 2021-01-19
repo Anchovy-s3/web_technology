@@ -89,6 +89,9 @@
         <p>1922114</p>
         <p>情報ネットワークコミュニケーション学科</p>
         <p class="name">Naoki Owada</p>
+        <a href="https://github.com/Anchovy-s3/web_technology">
+          <p><img src="svg/git.svg"></p>
+        </a>
       </div>
     </div>
     <a class="section-link" href="#contact">

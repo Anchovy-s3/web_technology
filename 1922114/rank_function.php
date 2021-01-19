@@ -53,11 +53,11 @@
     //  echo "<br>";
       //順位i browser no j
       //順位分け
-      $brc[0] = "rgba(255, 205, 85, 0.65)"; //chrome
-      $brc[1] = "rgba(235, 141, 54, 0.65)"; //Firefox
-      $brc[2] = "rgba(70, 89, 255, 0.65)";  //IE
-      $brc[3] = "rgba(59, 149, 255, 0.65)"; //Safari
-      $brc[4] = "rgba(255, 85, 238, 0.65)"; //Other
+      $brc[0] = "rgba(255, 223, 56, 1)"; //chrome
+      $brc[1] = "rgba(255, 133, 20, 1)"; //Firefox
+      $brc[2] = "rgba(70, 133, 255, 1)";  //IE
+      $brc[3] = "rgba(128, 186, 255, 1)"; //Safari
+      $brc[4] = "rgba(255, 103, 240, 1)"; //Other
       for ($i=1; $i <= 5 ; $i++) {
         //echo "順位分けループ{$i}回目";
         //echo "<br>";

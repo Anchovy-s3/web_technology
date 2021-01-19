@@ -63,7 +63,7 @@
       <div class="header-right">
         <nav>
           <ul class="right">
-            <li><a href="#upload">UPLOAD.</a></li>
+            <li><a href="#upload">ABOUT.</a></li>
             <li><a href="#ques">QUESTIONNAIRE.</a></li>
             <li><a href="#contact">CONTACT.</a></li>
           </ul>
